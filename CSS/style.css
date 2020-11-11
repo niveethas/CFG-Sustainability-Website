@@ -25,6 +25,10 @@ body{
 
 }
 
+.navbar-light .navbar-toggler {
+    float: right;
+}
+
 .navbar-nav{
     margin:auto;
     font-weight: bold;
@@ -295,6 +299,21 @@ body{
     font-weight: bold;
     color: #3b3b3b
 }
+
+@media only screen and (max-width: 800px) {
+    .bathroom-container .row .col {
+        min-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .bathroom-container .col .overlay {
+        background-color: rgba(90, 146, 130, 0.8);
+    }
+
+    .bathroom-container .col .overlay span {
+        opacity: 1;
+    }
+}
  
 .rowtitle {
     margin-top: 30px;
@@ -330,7 +349,6 @@ body{
 }
 
 #Home-main-content{
-    background-color: blueviolet;
     height:100%;
     margin-top: 3%;
 }
@@ -350,6 +368,25 @@ body{
     width: 40%;
     margin-left: 2%;
     margin-right: 10%;
+}
+
+@media only screen and (max-width: 1120px) {
+    #Home-main-content {
+        margin-top: 0;
+    }
+
+    .Home-right-side {
+        width: 100%;
+        float: none;
+        margin: 50px auto 0 auto;
+    }
+    
+    .Home-left-side {
+        width: 100%; 
+        float: none;
+        margin: auto;
+    }
+    
 }
 
 .houselayout-container {
@@ -411,6 +448,34 @@ body{
 .houselayout .map-balcony {
     width: 300px;
     height: 155px;
+}
+
+@media only screen and (max-width: 1120px) {
+    .houselayout .map-room .map-tooltip {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .houselayout img {
+        width: 350px;
+        height: auto;
+    }
+
+    .houselayout .map-bathroom {
+        width: 180px;
+        height: 100px;
+    }
+
+    .houselayout .map-bedroom {
+        width: 180px;
+        height: 150px;
+    }
+
+    .houselayout .map-balcony {
+        width: 180px;
+        height: 100px;
+    }
 }
 
 
