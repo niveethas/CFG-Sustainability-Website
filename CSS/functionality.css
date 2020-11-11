@@ -1,0 +1,34 @@
+.web-color-changer{
+    margin:auto;
+    width:50%;
+}
+
+#newNavBG{
+    background-color: white;
+}
+
+#newContentText{
+    color:black;
+}
+
+#newText{
+    color:black;
+    background-color: #f7f7f7;
+}
+
+#newH3{
+    font-weight: bolder;
+}
+
+#newFooterBG{
+    background-color: white;
+}
+
+#newBWBox{
+    padding-left: 1vw;
+    color: black;
+}
+
+#newFooterText{
+    color: black;
+}

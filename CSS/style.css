@@ -1,0 +1,534 @@
+
+body{
+    min-height: 100%;
+    height: 100%;
+    background-color:#f7f7f7 !important;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.jumbotron{
+    margin-bottom:0px !important;
+    background-color: #3b3b3b !important;
+    color: #f7f7f7;
+    font-size: larger;
+    font-family: 'Righteous', cursive !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.centeritemnav{
+    text-align: center !important ;
+    position: relative;
+    display: inline-block;
+    font-size: 1.4vw !important;
+
+}
+
+.navbar-nav{
+    margin:auto;
+    font-weight: bold;
+}
+
+.nav-link a{
+    color: #f7f7f7 !important;
+}
+
+.bg-colour-bold{
+    background-color:#cae7df;
+}
+
+.main-body{
+    font-size: 1.35vw !important;
+}
+
+
+.main-body h3{
+    font-size: 1.635vw;
+    background-color:#3b3b3b;
+    color: #f7f7f7;
+}
+
+
+.imagewidth{
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left:5%;
+    margin-bottom: 2%;
+}
+
+.text-container h2{
+    padding: 1%;
+    color: #3b3b3b;
+    font-weight: bold;
+}
+
+#intro-para{
+    padding-right: 5%;
+    padding-left:5%;
+}
+
+.text-container{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding:1.5%;
+    color: grey;
+    text-align: center;
+}
+
+.main-balcony-content{
+    margin-right: 2%;
+    margin-left: 5%;
+    margin-top: 2%;
+    color:grey;
+    padding-right: 1%;
+    width: 60%;
+    float: left;
+    position: relative;
+}
+
+.main-balcony-content h3{
+    padding: 1.5%;
+}
+
+.main-balcony-content-ul{
+    padding-right: 3.5%;
+}
+
+.subheading{
+    font-weight: bold;
+}
+
+#plants-list, #compost-list, #water-list{
+    background-color: #cae7df;
+    color: #3b3b3b ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#water-list a, #compost-list a, #plants-list a{
+    color: #3b3b3b ;
+
+}
+
+.plant-image{
+    width: 28%;
+    float:right;
+    position: relative;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#last-image{
+    margin-bottom: 20%;
+}
+
+.bottom-white-space{
+    margin-bottom: 10%;
+}
+
+
+/*footer*/
+
+.myFooter{
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#cae7df;
+  text-align: left;
+  padding: 0.4vw;
+  margin-top: -200px;
+
+}
+
+.my-container{
+    width: 100%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#BWBox {
+    padding-left: 1vw;
+}
+
+#BWBox, #ColorBox{
+    color:grey;
+    text-decoration: none;
+}
+
+#BWBox:hover, #ColorBox:hover {
+    color:#3b3b3b;
+}
+
+.right-side-footer{
+    float:right;
+}
+
+.right-side-footer a{
+    text-decoration: none;
+    color:grey;
+}
+
+.right-side-footer a:hover {
+    text-decoration: none;
+    color:#3b3b3b;
+}
+
+.right-side-footer a:active{
+    text-decoration: none;
+}
+
+#active-footer{
+    color:#3b3b3b;
+}
+
+#contactUs-span{
+    padding-right:0.5vw;
+}
+
+/*this is contact us page css*/
+
+.contactUs-text{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top:2%;
+    margin-right: 5%;
+    text-align: left;
+    float: left;
+    width: 30%;
+    position:relative;
+    padding: 1.5%;
+    color: grey;
+}
+
+.contactUs-text h2{
+    color: #3b3b3b;
+    font-weight: bold;
+}
+
+.form-container{
+    font-size: 1.4vw !important;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top:2%;
+    margin-right: 5%;
+    text-align: left;
+    float: right;
+    width: 50%;
+    position:relative;
+}
+
+/*sitemap page*/
+
+.sitemap-text{
+    font-size: 1.4vw !important;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top:2%;
+    margin-right: 5%;
+    text-align: left;
+    padding: 1.5%;
+}
+
+.sitemap-text a{
+    color: grey;
+}
+
+.sitemap-text a:hover{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+
+/*bathroom page*/
+.bathroom-container {
+    padding-bottom: 100px;
+}
+
+.bathroom-container .col {
+    position: relative;
+}
+ 
+.bathroom-container .col .overlay {
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: ease 0.5s all;
+    margin: 0 15px;
+    padding: 15px;
+}
+ 
+.bathroom-container .col .overlay span {
+    opacity: 0;
+    transition: ease 0.5s all;
+}
+ 
+.bathroom-container .col:hover .overlay span {
+    opacity: 1;
+}
+ 
+.bathroom-container .col .overlay h4 {
+    text-align: center;
+}
+ 
+.bathroom-container .col .overlay button {
+    display: block;
+    margin: 25px auto 0 auto;
+}
+ 
+.bathroom-container .col:hover .overlay {
+    background-color: #5a9282;
+}
+ 
+.bathroomTitle {
+    margin: 30px auto 30px auto;
+    font-weight: bold;
+    color: #3b3b3b
+}
+ 
+.rowtitle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ 
+.rowtitle p {
+    width: 100%;
+    text-align: center;
+}
+ 
+/* About us & HOME Page CSS */
+.AboutUsIntro{
+    background-color:#cae7df;
+    color:#3b3b3b;
+    padding: 1%;
+}
+.about-container {
+    padding-bottom: 100px;
+}
+
+.card-title {
+    text-align: center;
+}
+ 
+.card-text {
+    text-align: center;
+}
+ 
+.card-body button {
+    display: block;
+    margin: 25px auto 0 auto;
+}
+
+#Home-main-content{
+    background-color: blueviolet;
+    height:100%;
+    margin-top: 3%;
+}
+
+.Home-left-side{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width:30%;
+    background-color: #cae7df;
+}
+
+.Home-right-side{
+    float: right;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+.houselayout-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.houselayout {
+    margin: auto;
+    position: relative;
+}
+
+.houselayout img {
+    width: 570px;
+    height: 403px;
+}
+
+.houselayout .map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.houselayout .map-room {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.houselayout .map-room .map-tooltip {
+    padding: 10px;
+    background-color: #cae7df;
+    color: #3b3b3b;
+    opacity: 0;
+    transition: ease all 0.5s;
+}
+
+.houselayout .map-room:hover .map-tooltip {
+    opacity: 1;
+}
+
+.houselayout .map-bathroom {
+    width: 260px;
+    height: 180px;
+    top: 0;
+    right: 0;
+}
+
+.houselayout .map-bedroom {
+    width: 310px;
+    height: 250px;
+    bottom: 0;
+}
+
+.houselayout .map-balcony {
+    width: 300px;
+    height: 155px;
+}
+
+
+/*bedroom page*/
+.container2 {
+    float: left;
+    width: 100%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #nav {
+    float: center;
+  }
+    
+    #nav li {
+    float: left;
+    text-align:center; }
+    
+    #nav li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align:center;
+    color: #f7f7f7;
+    }
+
+    #nav li a:hover{
+        color: darkslategray;
+    }
+    
+  .mainBedroomImage {
+      position: center;
+      max-width: 1020px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 30px;
+  }
+
+  .bedroomTextContainer1 {
+      text-align:center;
+      max-width: 1020px;
+      margin: auto;
+      width: 60%;
+      padding: 1.5%;
+  }
+
+  .bedroomTextContainer1 h2{
+    color: #3b3b3b;
+    font-weight: bold;
+    padding: 1%;
+  }
+
+  .bedroomTextContainer1 p{
+      color: grey;
+  }
+
+  .column {
+    padding: 10px;
+  }
+
+  .bedroomContent {
+    margin: auto;
+    padding: 1.5%;
+    text-align: center;
+    background-color: #3b3b3b;
+    color: #f2f0f0;
+    width:60%;
+  }
+
+.bedroomContent2 {
+    margin: auto;
+    padding: 1.5%;
+    text-align: center;
+    background-color: #3b3b3b;
+    color: #f2f0f0;
+    width:60%;
+}
+
+.bedroomContent3 {
+    margin: auto;
+    padding: 1.5%;
+    position: relative;
+    background-color: #3b3b3b;
+    color: #f2f0f0;
+    width:60%;
+}
+
+.bedroomContent3 p {
+    text-align: center;
+}
+
+.bedroomContent3 h3 {
+    text-align: center;
+}
+
+.bedroomContent4 {
+    margin: auto;
+    padding: 1.5%;
+    position: relative;
+    background-color: #3b3b3b;
+    color: #f2f0f0;
+    width:60%;
+}
+
+.bedroomContent4 h3 {
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+    color: #3b3b3b;
+    font-weight: lighter;
+}
